@@ -1,0 +1,434 @@
+* {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: -3vh;
+  bottom: -3vh;
+  position: sticky;
+  z-index: 1;
+  opacity: 0.65;
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header:hover {
+  opacity: 1;
+}
+
+.logo h1 {
+  margin: 0;
+  color: white;
+}
+
+.a {
+  background-color: #d2b703;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #d2b703;
+}
+
+.main2 {
+  display: flex;
+  text-align: left;
+  padding: 40px;
+
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+}
+
+.main3 {
+  text-align: left;
+  padding: 40px;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.min-head h1 {
+  text-align: center;
+}
+
+.card1 {
+  display: flex;
+  width: 45%;
+  height: 215px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: black;
+  border-radius: 50px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border: #d2b703 4px solid;
+  border-radius: 100px;
+}
+
+.image2 {
+  background-image: url("../images/o2.jpg");
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+  border: #d2b703 4px solid;
+  border-radius: 100px;
+  transition: 0.4s;
+}
+
+.image3 {
+  background-image: url("../images/o1.jpg");
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+  border: #d2b703 4px solid;
+  border-radius: 100px;
+  transition: 0.4s;
+}
+
+.image3:hover,
+.image2:hover {
+  background-size: 150% 150%;
+}
+
+.main2 p {
+  font-size: 45px;
+}
+
+.main {
+  text-align: left;
+  margin-top: -130px;
+  padding: 40px;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: 100% 100%;
+
+  height: 700px;
+}
+
+.main h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.main p {
+  text-align: left;
+
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #d2b703;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #ffdd01;
+  box-shadow: 6px 6px 10px #ffffff;
+  border: 4px solid #ffffff;
+}
+
+.image {
+  margin-top: 40px;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.page1 {
+  padding-top: 200px;
+}
+
+
+
+ul {
+  display: flex;
+}
+
+.button ul li img {
+  width: 30px;
+  height: 30px;
+  border: 4px solid white;
+  border-radius: 25px;
+  padding: 4px;
+}
+
+.button ul li img:hover {
+  box-shadow: 3px 3px 10px white;
+}
+
+.nav ul {
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
+.nav ul li a:hover {
+  text-decoration: none;
+  background-color: #000000;
+  border: 4px solid white;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px white;
+  color: #ffffff;
+}
+
+.box {
+  position: relative;
+  margin: 25px;
+  display: inline-block;
+  width: calc(100% / 3.5);
+  background-color: #ffffff;
+
+  color: #ffffff;
+  border-radius: 50px;
+  overflow: hidden;
+  background: #222831;
+}
+.all-food {
+  display: inline-block;
+  width: 100%;
+}
+.box .img-box {
+  background: #f1f2f3;
+
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  height: 215px;
+  border-radius: 0 0 0 50px;
+  margin: -1px;
+  padding: 25px;
+}
+
+.box .img-box img {
+  max-width: 100%;
+  max-height: 145px;
+border: #222831;
+  transition: 0.2s;
+}
+.box .detail-box {
+  padding: 25px;
+}
+
+.box .detail-box h5 {
+  font-weight: 600;
+}
+
+.box .detail-box p {
+  font-size: 15px;
+}
+
+.box .detail-box h6 {
+  margin-top: 10px;
+}
+.box .options {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.box .options a {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #ffbe33;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.box:hover .img-box .img {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.big-picture {
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+  }
+  
+  .pig-1 {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+  .pig-1 img{
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .pig-2 {
+    width: 55%;
+    color: white;
+    padding-left: 50px;
+  }
+  
+  .big-h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: lighter;
+  }
+  
+  .big-p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 1em;
+  }
+  
+  .big-b {
+    background-color: #ffc107;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    margin: 50px;
+  }
+
+
+
+
+
+  .book_section {
+    position: relative;
+    margin-left: 25px;
+  }
+  
+  .book_section .heading_container {
+    margin-bottom: 25px;
+  }
+  
+  .book_section .form_container .form-control {
+    width: 50%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+   
+    padding-left: 25px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius: 5px;
+ 
+            box-shadow: none;
+  }
+
+   
+  
+  .book_section .form_container .form-control::placeholder {
+    color: #222222;
+  }
+  
+ 
+  
+  .book_section .form_container button {
+    margin-top: 15px;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #d2b703;
+    color: #ffffff;
+    border-radius: 45px;
+  
+    transition: all 0.3s;
+    border: none;
+  }
+  
+
+  
+  .book_section .map_container {
+    width: 40%;
+    height: 345px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+  }
+  input{
+    width: 300px;
+  }
+  .book_section .map_container #googleMap {
+    height: 100%;
+    min-height: 50%;
+    width: 50%;
+  }
+
+
+
+
+
+
+  .footer_section{
+    background-color: #222831;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer_section a{
+    text-decoration: none;
+    color: #ffffff;
+  }
